@@ -12,7 +12,7 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.util.Log
 
-open class LocationUtils {
+open class LocationUtils private constructor() {
 
     companion object {
 
